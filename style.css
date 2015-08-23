@@ -1,0 +1,164 @@
+body
+{
+    font-family: tahoma;
+    font-size: 14px;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: underline;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+#canvas
+{
+    border-radius: 5px;
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+div.body
+{
+    text-align: center;
+    width: 100%;
+}
+
+table
+{
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+table.help
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    height: 100px;
+    width: 250px;
+}
+
+table.other
+{
+    background: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    height: 485px;
+    width: 250px;
+}
+
+td.body
+{
+    text-align: left;
+    width: 0;
+}
+
+td.help
+{
+    text-align: right;
+    vertical-align: top;
+    height: 100%;
+    width: 200px;
+}
+
+td.title
+{
+    height: 0;
+    vertical-align: top;
+}
+
+td.instruction
+{
+    height: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+td.instruction_end
+{
+    padding: 0;
+    vertical-align: top;
+}
+
+td.other_title
+{
+    height: 30;
+    vertical-align: top;
+}
+
+td.other_score
+{
+    height: 20;
+    padding: 0;
+    vertical-align: top;
+}
+
+td.other_score_end
+{
+    height: auto;
+    padding: 0;
+    vertical-align: top;
+}
+
+tr.title
+{
+    font-family: courier new;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+}
+
+tr.instruction
+{
+    font-family: courier new;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+    padding: 0;
+    text-align: left;
+}
+
+tr.other_title
+{
+    color: white;
+    font-family: courier new;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30;
+    padding: 0;
+    text-align: center;
+}
+
+tr.other_score
+{
+    color: white;
+    font-family: courier new;
+    font-size: 15px;
+    font-weight: normal;
+    height: 20;
+    text-align: left;
+    padding: 0;
+    text-align: left;
+}
+
+tr.other_score_end
+{
+    color: white;
+    font-family: courier new;
+    font-size: 15px;
+    font-weight: normal;
+    height: auto;
+    text-align: left;
+    padding: 0;
+    text-align: left;
+}
+
